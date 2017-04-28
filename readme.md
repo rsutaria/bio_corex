@@ -30,7 +30,10 @@ The visualization capabilities in vis_corex.py require other packages:
 * matplotlib - Already in scipy superpack.
 * [networkx](http://networkx.github.io)  - A network manipulation library. 
 * [graphviz](http://www.graphviz.org) (Optional, for compiling produced .dot files into pretty graphs. The command line 
-tools are called from vis_corex. Graphviz should be compiled with the triangulation library *gts* for best visual results).
+tools are called from vis_corex. Graphviz should be compiled with the triangulation library *gts* for best visual results). 
+To install graphviz on MacOS Sierra 10.12.4 use:
+brew install graphviz --with-pango --with-cairo --with-gts
+
 
 ###Install
 
